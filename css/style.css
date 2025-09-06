@@ -1,3 +1,8 @@
+/* pedidos del trabajo: Implementa una hoja de estilos externa para la presentación del sitio.
+Utiliza Flexbox o Grid para la maquetación del sitio web. Aplica estilos personalizados a al menos
+tres etiquetas diferentes. Utiliza al menos dos clases (.class) y dos identificadores (#id).
+Añade al menos dos pseudo-clases (como :hover, :focus, etc.) para mejorar la interactivisddf */
+
 /* Uso de Flexbox para organizar */
 body {
   font-family: Arial, sans-serif;
