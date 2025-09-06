@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Proyecto web de primer semestre">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Proyecto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Absolute Cinema</title>
+
+  <!-- Vincular CSS externo -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Estructura semántica -->
+  <header>
+    <h1>Absolute Cinema: Tu guía de pelis</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sección principal</h2>
+      <p>Este es un párrafo de ejemplo dentro de la sección principal.</p>
+      <img src="img/streaming.jpg" alt="tvstreaming">
+    </section>
+
+    <section>
+      <h2>Tabla de ejemplo</h2>
+      <table border="1">
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+        </tr>
+        <tr>
+          <td>Ana</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>22</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Formulario de Contacto</h2>
+      <form id="formulario">
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email" required><br><br>
+
+        <label>Mensaje:</label><br>
+        <textarea id="mensaje" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Proyecto Web</p>
+  </footer>
+
+  <!-- Vincular JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
